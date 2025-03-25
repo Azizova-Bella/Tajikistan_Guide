@@ -1,0 +1,42 @@
+.toggle-switch {
+	width: 60px;
+	height: 30px;
+	border-radius: 30px;
+	cursor: pointer;
+	position: relative;
+	transition: background 0.3s ease;
+ }
+ 
+ .toggle-switch.light {
+	background-color: #fde68a;
+ }
+ 
+ .toggle-switch.dark {
+	background-color: #0a193c; 
+ }
+ 
+ .toggle-thumb {
+	width: 26px;
+	height: 26px;
+	border-radius: 50%;
+	position: absolute;
+	top: 2px;
+	transition: left 0.3s ease, background-color 0.3s ease;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 60%;
+ }
+ 
+ .toggle-switch.light .toggle-thumb {
+	left: 2px;
+	background-color: #07d6e97b;
+	background-image: url('https://cdn-icons-png.flaticon.com/512/869/869869.png');
+ }
+ 
+ .toggle-switch.dark .toggle-thumb {
+	left: 32px;
+	background-color: #38bdf8; 
+	background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23fff'><path d='M21 12.79A9 9 0 0111.21 3a9 9 0 109.79 9.79z'/></svg>");
+
+ }
+ 

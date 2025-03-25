@@ -1,0 +1,31 @@
+{
+  "home": {
+    "title": "Добро пожаловать в Таджикистан!",
+    "description": "Исследуйте рестораны, еду, одежду и многое другое."
+  },
+  
+    "nav": {
+      "home": "Главная",
+      "restaurants": "Рестораны",
+      "foods": "Еда",
+      "searchTourism": "Поиск туристических мест",
+          "clothes": "Одежда"
+
+  
+  },
+  
+    "address_search": "Поиск адреса ",
+    "enter_address": "Введите адрес!",
+    "address_not_found": "Адрес не найден!",
+    "search": "Найти",
+    "enter_address_placeholder": "Введите адрес или город...",
+    "search_history": "История поиска",
+    "favorites": "Избранное",
+    "no_history": "История пуста",
+    "no_favorites": "Нет избранных мест",
+   "add_to_favorites": "Добавить в избранное"
+   
+  
+  
+  
+}

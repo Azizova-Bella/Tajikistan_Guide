@@ -1,0 +1,17 @@
+{
+  "home": {
+    "title": "Welcome to Tajikistan!",
+    "description": "Explore restaurants, food, clothes, and more."
+
+  },
+    "nav": {
+      "home": "Home",
+      "restaurants": "Restaurants",
+      "foods": "Foods",
+       "searchTourism": "Search Tourism Places",
+       "clothes": "Clothes"
+    
+  }
+  
+}
+

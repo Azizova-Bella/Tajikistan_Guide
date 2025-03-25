@@ -1,0 +1,64 @@
+.header {
+  background-color: #f5f5f5;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.header__logo {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.header__nav {
+  display: flex;
+  gap: 1rem;
+}
+
+.header__link {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.header__link:hover {
+  color: #0077cc;
+}
+.header__right{
+  display: flex;
+  gap: 20px;
+}
+/* src/pages/TourismSearchPage.css */
+
+#search-box {
+  width: 50%;
+  padding: 10px;
+  font-size: 16px;
+  margin: 10px;
+}
+
+#map {
+  height: 500px;
+  width: 100%;
+  margin-top: 10px;
+}
+.lang-switcher {
+  padding: 6px 10px;
+  border-radius: 8px;
+  background-color: #f0f0f0;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.lang-switcher:hover {
+  background-color: #e4e4e4;
+}
